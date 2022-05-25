@@ -33,7 +33,6 @@ let seattle = {
       uElem.appendChild(liElem);
     }
     let liElem = document.createElement('li');
-    //liElem.textcontent = `Total: ${this.total} cookies`;
     this.total = this.total + this.cookiesTotal(this.customer);
     uElem.appendChild(liElem);
   }
